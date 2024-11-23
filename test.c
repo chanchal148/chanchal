@@ -16,5 +16,6 @@ int main()
  {
  printf("seperated unit place num %d",y);
  }
- return 0;
+ return 0;.
+ 
  }
