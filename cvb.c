@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
- int x;
+ int x,sum =0  ;
  printf("enter a x");
  scanf("%d",&x);
  if (x>0)
@@ -38,7 +38,11 @@ int main()
  int temp=x%10;
  int k=x/10;
  x=k;
+ sum+=temp;
  {printf("value of temp %d\n",temp);}
+ }
+ {
+ printf("sum of digits is %d\n",sum);
  }
  return 0;
  }
